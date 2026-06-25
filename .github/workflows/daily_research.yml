@@ -24,7 +24,7 @@ jobs:
         run: mkdir -p output/reports
       - name: Run Research Pipeline
         env:
-          OPENAI_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
         run: |
           python main.py
 
