@@ -1,6 +1,6 @@
-langgraph
-langchain
-groq
+langchain-core
+langchain-groq
+langsmith
 python-dotenv
 feedparser
 pydantic

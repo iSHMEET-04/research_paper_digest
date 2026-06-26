@@ -25,6 +25,9 @@ jobs:
       - name: Run Research Pipeline
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          LANGSMITH_API_KEY: ${{ secrets.LANGSMITH_API_KEY }}
+          LANGSMITH_TRACING: "true"
+          LANGSMITH_PROJECT: "Research-Paper-Digest"
         run: |
           python main.py
 
@@ -43,7 +46,7 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add output/reports/
-          git commit -m "Update daily research report -$(date + '%Y-%m-%d')"
+          git commit -m "Update daily research report -$(date +%Y-%m-%d)"
           git push
 
       - name: Workflow Summary

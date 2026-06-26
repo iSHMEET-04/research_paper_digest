@@ -1,0 +1,3 @@
+from langsmith.evaluation import LangChainStringEvaluator
+
+answer_relevance_evaluator= LangChainStringEvaluator("answer_relevance")

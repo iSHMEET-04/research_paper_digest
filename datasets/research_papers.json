@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
+    "abstract": "Large language models demonstrate improved reasoning when prompted to generate intermediate reasoning steps before producing the final answer.",
+    "expected_summary": "The paper shows that chain-of-thought prompting significantly improves reasoning performance in large language models by encouraging intermediate reasoning."
+  },
+  {
+    "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP",
+    "abstract": "The paper proposes combining external document retrieval with language generation to improve factual correctness and reduce hallucinations.",
+    "expected_summary": "The paper introduces Retrieval-Augmented Generation, which combines retrieval systems with language models to improve factual accuracy."
+  },
+  {
+    "title": "Vision Transformers",
+    "abstract": "This work replaces convolutional neural networks with transformer architectures for image classification, achieving state-of-the-art performance.",
+    "expected_summary": "The paper introduces Vision Transformers, demonstrating that transformer architectures can outperform CNNs on image classification tasks."
+  }
+]
